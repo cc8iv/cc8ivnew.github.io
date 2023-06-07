@@ -1,0 +1,71 @@
+<!-- 
+    Achieving:
+
+    - Understanding of proper structure and nesting
+    - display property
+    - flexbox concept
+    - simple design concept
+ -->
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .nav-container{
+            display: flex;
+            background-color: #929292;
+            /* flex-direction: row; */
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        a{
+            color: black;
+            text-decoration: none;
+        }
+
+        .menu{
+            border: solid;
+        }
+        .menu ul{
+            display: flex;
+            list-style: none;
+            column-gap: 10px;
+            border: solid;
+            justify-content: center;
+        }
+        
+    </style>
+    <title>Tutorial Page</title>
+ </head>
+ <body>
+    <!-- nesting is putting an element inside of another -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="header">
+                <span class="logo">
+                    logo
+                </span>
+            </div>
+                
+            <div class="menu">
+                <ul class="navlist">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">services</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+ </body>
+ </html>
+              
+ 
+ 
+ 
+ 
+ <!-- ![](hDwuv3iG9JYiSmnelxvkkxh9Ya485oiV.svg) -->
